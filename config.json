@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "path": "logs/grt.log",
+    "rotation": "3 MB",
+    "retention": "1 months",
+    "format": "<level>{level: <8}</level> | <yellow>{time:YYYY-MM-DD HH:mm:ss.SSS}</yellow> | <cyan>{name}:{function}</cyan> - {message}"
+  }
+}
